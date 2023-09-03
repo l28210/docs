@@ -46,4 +46,8 @@ git config --global --get http.proxy
 git config --global --get https.proxy
 ```
 
-
+### 密码失效
+```
+remote: Invalid username or password. fatal: 'https://github.com/l28210/docs.git/' 鉴权失败
+```
+- 需要重新生成token
