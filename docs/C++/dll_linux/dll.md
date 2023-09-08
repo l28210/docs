@@ -41,3 +41,8 @@ export LD_LIBRARY_PATH=/path/to/directory:$LD_LIBRARY_PATH
 ```
 
 可成功运行
+
+ps.
+.h文件为类声明，包含类的结构和接口
+.cpp文件为类定义，提供实际功能和行为
+

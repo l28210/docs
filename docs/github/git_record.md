@@ -51,3 +51,10 @@ git config --global --get https.proxy
 remote: Invalid username or password. fatal: 'https://github.com/l28210/docs.git/' 鉴权失败
 ```
 - 需要重新生成token
+
+- 查看远程分支联系
+```
+git remote -v
+```
+
+

@@ -6,4 +6,4 @@
 - rm 移除文件
 - rm -rf 移除文件夹
 - mv /currentfilename /newfilename 重命名
-
+- mkdir 创建文件夹，-p表示递归地创建文件夹
