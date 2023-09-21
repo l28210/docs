@@ -10,6 +10,12 @@ git commit -m "msg"
 git push origin main
 ```
 
+- 查看工作区改动
+```
+git checkout
+```
+
+
 - 查看远程分支
 
 ```
@@ -57,4 +63,15 @@ remote: Invalid username or password. fatal: 'https://github.com/l28210/docs.git
 git remote -v
 ```
 
+### git pull
+```
+Username for 'https://www.usilab.cn': liaojiahui
+Password for 'https://liaojiahui@www.usilab.cn': 
+来自 https://www.usilab.cn/git/liaojiahui/Aruco_Location
+ * branch            master     -> FETCH_HEAD
+error: 您对下列文件的本地修改将被合并操作覆盖：
+	README.md
+请在合并前提交或贮藏您的修改。
+正在终止
+```
 

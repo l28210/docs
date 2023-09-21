@@ -105,3 +105,45 @@ template <typename T>
 一个类可以继承另一个类的属性和方法，继承允许在不重复编写相似代码的情况下创建新类
 - 多态
 多态是一种能力，允许不同类的对象对相同的方法做出不同的响应。这使得可以使用基类的指针或引用来调用派生类的方法
+
+定义一个类后的使用方法
+- 头文件
+```
+ #include "MyClass.h" // MyClass.h 是你的类的头文件
+```
+- 创建类对象
+```
+MyClass myObject; // 在栈上创建对象
+```
+或
+```
+MyClass* myObject = new MyClass(); // 在堆上创建对象
+```
+
+- 访问成员函数或变量
+```
+myObject.myMethod(); // 调用成员函数
+
+int value = myObject.myVariable; // 访问成员变量
+```
+或
+```
+myObject->myMethod(); // 调用成员函数
+
+int value = myObject->myVariable; // 访问成员变量
+```
+
+- 释放资源
+```
+delete myObject; // 释放堆上的对象
+```
+
+
+ps.
+```
+RobotControl Car{0}; //RobotControl 为定义的类
+```
+{0}为初始化列表，不需要“=”，不易导致类型错误，能够为构造函数提供参数
+
+
+

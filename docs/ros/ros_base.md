@@ -22,3 +22,6 @@ Z轴：正方向指向上方。Z轴的正方向是从机器人底部（或基础
 ## ros编译
 在VScode中编译时选择catkin_make进行编译
 无法单独对源文件编译，由于ros等头文件在其他目录，需要CMakeList.txt连接
+
+## 用VScode调试
+ 
