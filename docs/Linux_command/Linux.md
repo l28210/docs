@@ -11,9 +11,18 @@
 - cp -r 复制文件夹
 
 ## deb文件安装
-- .deb文件解压
+- .deb文件安装
 ```
 sudo dpkg -i pkg.deb
 ```
 
--
+- deb文件解压
+```
+ar -x file.deb
+```
+## zip命令
+```
+zip -r file.zip mydir
+```
+- 将mydir下的文件压缩到zip内
+
